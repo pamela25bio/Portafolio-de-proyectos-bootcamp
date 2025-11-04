@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Pam</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #6b5b95;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin-bottom: 0.3rem;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #6b5b95;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: #6b5b95;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¡Hola! Soy Pam </h1>
+    <p>Analista de Datos con experiencia en proyectos de análisis, visualización y storytelling.</p>
+  </header>
+
+  <section>
+    <h2>💻 Proyectos del Bootcamp (TripleTen)</h2>
+
+    <div class="project">
+      <h3>🚕 Análisis de servicio de taxis</h3>
+      <p>Exploración y análisis de datos de viajes en taxi para identificar patrones de demanda y eficiencia.</p>
+      <p><strong>Herramientas:</strong> Python, Pandas, Matplotlib</p>
+      <a href="https://github.com/pamela25bio/Project-Taxi-Data-Analysis" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🏋️‍♀️ Análisis de retención de clientes en gimnasio</h3>
+      <p>Evaluación de métricas de asistencia y cancelaciones para comprender los factores de retención de clientes.</p>
+      <p><strong>Herramientas:</strong> Python, Pandas, Seaborn, Scikit-learn</p>
+      <a href="https://github.com/pamela25bio/Project-Gym-analysis" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🎮 Análisis de ventas de videojuegos</h3>
+      <p>Identificación de tendencias de mercado y factores clave que influyen en el éxito de un videojuego.</p>
+      <p><strong>Herramientas:</strong> Python, Pandas, Matplotlib, Seaborn</p>
+      <a href="https://github.com/pamela25bio/Analysis-of-videogames-sales" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🚗 Análisis de ventas de vehículos</h3>
+      <p>Estudio de precios, kilometraje y factores que afectan el valor de mercado de los automóviles.</p>
+      <p><strong>Herramientas:</strong> Python, Pandas, Plotly</p>
+      <a href="https://github.com/pamela25bio/Analisis-de-venta-de-vehiculos" target="_blank">Ver en GitHub</a>
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding:1rem; font-size:0.9rem; color:#777;">
+    © 2025 Pam | Portafolio de Análisis de Datos
+  </footer>
+</body>
+</html>
